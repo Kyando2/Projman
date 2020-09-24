@@ -1,1 +1,1 @@
-<'senvironments' IS '<'sDefault' IS '<'sprojects' IS '^$' AND 'smetadata' IS '<'sdirectory' IS 'sC:\Users\user\Documents\projects'>'>' AND 'sTest' IS '<'sprojects' IS '^$' AND 'smetadata' IS '<'sdirectory' IS 'sC:\Users\user\Documents\testing\Projects'>'>'>' AND 'scurrent' IS 'sTest'>
+<'senvironments' IS '<'sDefault' IS '<'sprojects' IS '^$' AND 'smetadata' IS '<'sdirectory' IS 'sC:\Users\Felix\Documents\Projects'>'>' AND 'sTest' IS '<'sprojects' IS '^$' AND 'smetadata' IS '<'sdirectory' IS 'sC:\Users\Felix\Documents\ProjmanTesting\Projects'>'>'>' AND 'scurrent' IS 'sTest'>
