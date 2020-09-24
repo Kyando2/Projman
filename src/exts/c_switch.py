@@ -7,7 +7,8 @@ def handler(args, gb):
     if os.path.exists(gb + "\\config\\environment.kya"):
         with open(gb + "\\config\\environment.kya", "r") as f:
             data = Kyandle.parse(f.read())
-        data["current"] = args.name
+        if args.name in data["environments"]:
+            data["current"] = args.name
     else:
         print("Please run projman init before trying to switch env")
         sys.exit()
