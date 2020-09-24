@@ -44,6 +44,11 @@ def __generate_environment(name, gb, directory):
     if os.path.exists(gb + "\\config\\environment.kya"):
         with open(gb + "\\config\\environment.kya", "r") as f:
             data = Kyandle.parse(f.read())
+
+        if name in data["environments"]:
+            print("Environment with a similar name already exists")
+            sys.exit()
+
         data["current"] = name
         data["environments"][name] = {"projects": [], "metadata": {"directory": directory}}
     else:
